@@ -60,19 +60,12 @@ applications and AI-driven tools that solve real-world problems.
 
 ---
 
-### 🟢 WhatsApp UI Clone
-**Tech:** Flutter, Dart  
+### 🟢 WhatsApp UI Clone**Tech:** Flutter, Dart  
 - High-fidelity UI following Material Design 3  
 - Reusable widgets for performance and maintainability  
 
 ---
 
-## 🧩 Competitive Programming
-- CodeChef Max Rating: 1580  
-- Solved 400+ DSA problems  
-- Regular contest participant  
-
----
 
 ## 📫 Contact
 - Email: nileshkumar3291@gmail.com  
