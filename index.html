@@ -2,41 +2,69 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nilesh Kumar | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Nilesh</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact" class="nav-btn">Contact</a></li>
+    </ul>
+  </nav>
+
   <!-- HERO -->
   <section class="hero">
     <div class="hero-content">
-      <h1>Hi, I'm <span>Nilesh Kumar</span></h1>
-      <p>B.Tech CSE @ IIIT Bhagalpur | Flutter • Backend • AI</p>
-      <div class="buttons">
+      <h1>
+        Building <span>Scalable Applications</span><br />
+        with Code & Clarity
+      </h1>
+      <p>
+        B.Tech CSE student at IIIT Bhagalpur focused on Flutter,
+        backend systems, and AI-driven applications.
+      </p>
+      <div class="hero-actions">
         <a href="#projects" class="btn primary">View Projects</a>
-        <a href="#contact" class="btn secondary">Contact Me</a>
+        <a href="#contact" class="btn secondary">Get in Touch</a>
       </div>
     </div>
   </section>
 
   <!-- ABOUT -->
-  <section class="section">
+  <section class="section" id="about">
     <h2>About Me</h2>
-    <p class="about-text">
-      I am a Computer Science Engineering student with strong foundations in
-      Data Structures, Object-Oriented Programming, backend systems, and AI-driven
-      applications. I enjoy building scalable products and solving real-world problems.
+    <p>
+      I am a Computer Science Engineering undergraduate with strong foundations
+      in Data Structures, Object-Oriented Programming, and backend system design.
+      I enjoy building scalable products and applying AI techniques to solve
+      real-world problems.
     </p>
   </section>
 
   <!-- SKILLS -->
-  <section class="section">
+  <section class="section" id="skills">
     <h2>Skills</h2>
-    <div class="skills-grid">
-      <span>C++</span><span>Python</span><span>Dart</span><span>SQL</span>
-      <span>Flutter</span><span>Flask</span><span>Firebase</span>
-      <span>REST APIs</span><span>NLP</span><span>Git</span>
+
+    <div class="skill-group">
+      <h4>Languages</h4>
+      <p>C++, Python, Dart, SQL</p>
+    </div>
+
+    <div class="skill-group">
+      <h4>Frameworks & Tools</h4>
+      <p>Flutter, Flask, Firebase, Git</p>
+    </div>
+
+    <div class="skill-group">
+      <h4>Backend & AI</h4>
+      <p>REST APIs, Authentication, NLP, Database Integration</p>
     </div>
   </section>
 
@@ -46,20 +74,36 @@
 
     <div class="project-card">
       <h3>AI YouTube Summarizer</h3>
-      <p>Python, Flask, NLP</p>
-      <a href="#" target="_blank">View on GitHub →</a>
+      <p class="project-desc">
+        AI-powered web application that extracts YouTube transcripts and
+        generates concise multilingual summaries using NLP.
+      </p>
+      <div class="project-actions">
+        <a href="#" target="_blank">GitHub</a>
+        <a href="#" target="_blank">Live Demo</a>
+      </div>
     </div>
 
     <div class="project-card">
       <h3>E-Commerce Sneaker App</h3>
-      <p>Flutter, Firebase</p>
-      <a href="#" target="_blank">View on GitHub →</a>
+      <p class="project-desc">
+        Full-stack Flutter application with secure authentication,
+        real-time product management, and clean architecture.
+      </p>
+      <div class="project-actions">
+        <a href="#" target="_blank">GitHub</a>
+      </div>
     </div>
 
     <div class="project-card">
       <h3>WhatsApp UI Clone</h3>
-      <p>Flutter, Dart</p>
-      <a href="#" target="_blank">View on GitHub →</a>
+      <p class="project-desc">
+        High-fidelity multi-screen UI built using Flutter,
+        closely following Material Design guidelines.
+      </p>
+      <div class="project-actions">
+        <a href="#" target="_blank">GitHub</a>
+      </div>
     </div>
   </section>
 
@@ -67,14 +111,14 @@
   <section class="section" id="contact">
     <h2>Contact</h2>
     <p>Email: <strong>nileshkumar3291@gmail.com</strong></p>
-    <p>
-      <a href="https://github.com/NileshKumar906">GitHub</a> |
-      <a href="https://linkedin.com/in/nilesh-kumar">LinkedIn</a>
+    <p class="contact-links">
+      <a href="https://github.com/NileshKumar906" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/nilesh-kumar" target="_blank">LinkedIn</a>
     </p>
   </section>
 
   <footer>
-    © 2026 Nilesh Kumar
+    © 2026 Nilesh Kumar. All rights reserved.
   </footer>
 
 </body>
